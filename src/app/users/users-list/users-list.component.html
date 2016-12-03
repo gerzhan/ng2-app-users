@@ -1,0 +1,6 @@
+<p class="users-title">
+    Users List!
+</p>
+<ul>
+    <app-users-list-item [user]="user" *ngFor="let user of usersList"> {{user.name}}</app-users-list-item>
+</ul>
